@@ -29,7 +29,7 @@ class create_user(User_base):
 
 class view_user(User_base):
     id:int
-    time:time
+    time:datetime
     
 class view_Item(Item):
     id:int
